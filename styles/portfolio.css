@@ -45,21 +45,31 @@ p {
   color: #272142;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 53px;
   line-height: 1.5;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   line-height: 1.5;
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -124,7 +134,7 @@ p {
   .hero {
     padding: 100px 20px 80px 20px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
