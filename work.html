@@ -30,9 +30,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>My work - Ana Tavares</title>
+    <meta name="description" content="See Ana Tavares' work as a front-end engineer and as an architect.">
+    <title>Work - Ana Tavares</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="logo">
+        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="logo">
+      </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li> 
+          <li>
+            <a href="/about.html" title="About Ana">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Ana's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ana">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>  
     <div class="content-container container">
       <div class="content">
         <h1 class="text-center mb-5">Take a Look at My Work!</h1>
@@ -41,7 +64,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/yogurt.png"
-              alt=""
+              alt="Yogurt project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Yogurt project</h3>
@@ -50,7 +73,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/weatherapp.png"
-              alt=""
+              alt="Weather-app project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Weather project</h3>
@@ -59,7 +82,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/dictionary.png"
-              alt=""
+              alt="Dictionary project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Dictionary App</h3>
@@ -68,7 +91,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/translationapp.png"
-              alt=""
+              alt="Translation project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Translation App</h3>
@@ -76,6 +99,32 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div class="mt-4">
+          <a href="/contact.html" class="primary-link" title="Contact Ana">Contact me</a>
+        </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:ana@tavares.com" class="email-link" title="Email Ana">ana@tavares.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://www.instagram.com/ana" target="_blank" title="Instagram profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.github.com/ana" target="_blank" title="Github profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/ana" target="_blank" title="Facebook profile">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+      </div>
+      <p class="text-center mt-5">This project was coded by Ana Tavares, and it is <a href="https://github.com/anafmt/Portfolio-project" target="_blank">open-sourced</a> </p>
+      </footer>
     </div>
   </body>
 </html>

@@ -30,9 +30,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About me - Ana Tavares</title>
+    <meta name="description" content="Ana Tavares is a front-end engineer and architect based in Luxembourg. With a 4 years international experience working as an architect in several contries such as Luxembourg, Germany, Portugal and Mozambique, she's using all her learnt skills ans strenghs to be the most awesome web developer she can.">
+    <title>About - Ana Tavares</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="logo">
+        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="logo">
+      </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li> 
+          <li class="active">
+            <a href="/about.html" title="About Ana">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Ana's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ana">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -52,7 +75,7 @@
               part users see and interact with. It's fun, motivational and
               challenging. The better the challenge the better the fun.
             </p>
-            <a href="" class="primary-link">See my projects</a>
+            <a href="/work.html" class="primary-link">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -63,6 +86,32 @@
           />
         </div>
       </div>
+      <footer class="mt-5">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div class="mt-4">
+          <a href="/contact.html" class="primary-link" title="Contact Ana">Contact me</a>
+        </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:ana@tavares.com" class="email-link" title="Email Ana">ana@tavares.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://www.instagram.com/ana" target="_blank" title="Instagram profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.github.com/ana" target="_blank" title="Github profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/ana" target="_blank" title="Facebook profile">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+      </div>
+      <p class="text-center mt-5">This project was coded by Ana Tavares, and it is <a href="https://github.com/anafmt/Portfolio-project" target="_blank">open-sourced</a> </p>
+      </footer>
     </div>
   </body>
 </html>
